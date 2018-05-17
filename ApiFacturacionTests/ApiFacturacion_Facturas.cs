@@ -72,8 +72,17 @@ namespace ApiFacturacionTests
             Assert.NotNull(facturaEnviada);
         }
 
+        [Fact]
         public void DescargaExitosaFactura() {
+            string facturaDescarga  = "{\"meta\":{\"empresa_uid\":\"asd123asd\",\"empresa_api_key\":\"123123123\",\"ambiente\":\"S\",\"objeto\":\"factura\"},\"data\":[{\"uuid\":[\"\"],\"destinatarios\":[{\"correo\":\"sandbox@docdigitales.com\"}],\"titulo\":\"Descargar factura\",\"texto\":\"Adjunto factura generada\",\"pdf\":\"true\"}]}";
+            var descargaDiccionario = JsonConvert.DeserializeObject<Dictionary<string, dynamic>>(facturaDescarga);
+            string uuidDescargar    = "F5903EAA-E758-4648-B67F-BAA3454F5A74";
             
+            // Establecer parametros de envio
+            descargaDiccionario["data"][0]["uuid"][0] = uuidDescargar;
+            var facturaDescargada = _factura.DescargarFactura(descargaDiccionario);
+            // Assertions
+            Assert.NotNull(facturaDescargada["data"][0]["link"]);
         }
     }
 }
