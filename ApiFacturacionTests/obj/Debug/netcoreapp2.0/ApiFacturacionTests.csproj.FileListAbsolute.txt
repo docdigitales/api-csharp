@@ -1,0 +1,17 @@
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/bin/Debug/netcoreapp2.0/ApiFacturacionTests.deps.json
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/bin/Debug/netcoreapp2.0/ApiFacturacionTests.runtimeconfig.json
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/bin/Debug/netcoreapp2.0/ApiFacturacionTests.runtimeconfig.dev.json
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/bin/Debug/netcoreapp2.0/ApiFacturacionTests.dll
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/bin/Debug/netcoreapp2.0/ApiFacturacionTests.pdb
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/bin/Debug/netcoreapp2.0/ApiFacturacion.dll
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/bin/Debug/netcoreapp2.0/ApiFacturacion.pdb
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/obj/Debug/netcoreapp2.0/ApiFacturacionTests.csproj.CoreCompileInputs.cache
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/obj/Debug/netcoreapp2.0/ApiFacturacionTests.AssemblyInfoInputs.cache
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/obj/Debug/netcoreapp2.0/ApiFacturacionTests.AssemblyInfo.cs
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/obj/Debug/netcoreapp2.0/ApiFacturacionTests.csproj.CopyComplete
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/obj/Debug/netcoreapp2.0/ApiFacturacionTests.dll
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/obj/Debug/netcoreapp2.0/ApiFacturacionTests.pdb
+/home/vic/workspace/tutorials/csharp/ApiFacturacionTests/obj/Debug/netcoreapp2.0/ApiFacturacionTests.csprojResolveAssemblyReference.cache

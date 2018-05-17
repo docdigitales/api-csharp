@@ -1,0 +1,9 @@
+/home/vic/workspace/tutorials/csharp/ApiFacturacion/bin/Debug/netstandard2.0/ApiFacturacion.deps.json
+/home/vic/workspace/tutorials/csharp/ApiFacturacion/bin/Debug/netstandard2.0/ApiFacturacion.dll
+/home/vic/workspace/tutorials/csharp/ApiFacturacion/bin/Debug/netstandard2.0/ApiFacturacion.pdb
+/home/vic/workspace/tutorials/csharp/ApiFacturacion/obj/Debug/netstandard2.0/ApiFacturacion.csproj.CoreCompileInputs.cache
+/home/vic/workspace/tutorials/csharp/ApiFacturacion/obj/Debug/netstandard2.0/ApiFacturacion.AssemblyInfoInputs.cache
+/home/vic/workspace/tutorials/csharp/ApiFacturacion/obj/Debug/netstandard2.0/ApiFacturacion.AssemblyInfo.cs
+/home/vic/workspace/tutorials/csharp/ApiFacturacion/obj/Debug/netstandard2.0/ApiFacturacion.dll
+/home/vic/workspace/tutorials/csharp/ApiFacturacion/obj/Debug/netstandard2.0/ApiFacturacion.pdb
+/home/vic/workspace/tutorials/csharp/ApiFacturacion/obj/Debug/netstandard2.0/ApiFacturacion.csprojResolveAssemblyReference.cache
