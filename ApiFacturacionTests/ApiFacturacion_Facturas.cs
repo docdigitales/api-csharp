@@ -62,7 +62,7 @@ namespace ApiFacturacionTests
         public void EnvioExitosoFactura() {
             string facturaEnvio = "{\"meta\":{\"empresa_uid\":\"asd123asd\",\"empresa_api_key\":\"123123123\",\"ambiente\":\"S\",\"objeto\":\"factura\"},\"data\":[{\"uuid\":[\"\"],\"destinatarios\":[{\"correo\":\"sandbox@docdigitales.com\"}],\"titulo\":\"Envio de Factura: 123\",\"texto\":\"Envio de Factura con folio 123, para su revision.\",\"pdf\":\"true\"}]}";
             var facturaDiccionario = JsonConvert.DeserializeObject<Dictionary<string, dynamic>>(facturaEnvio);
-            string uuidEnviar   = "F5903EAA-E758-4648-B67F-BAA3454F5A74";
+            string uuidEnviar   = "ACF6B8DB-AA7C-4FBC-A0A2-D8FE04220E2B";
 
             // Establecer Parametros de envio
             facturaDiccionario["data"][0]["uuid"][0] = uuidEnviar;
@@ -76,7 +76,7 @@ namespace ApiFacturacionTests
         public void DescargaExitosaFactura() {
             string facturaDescarga  = "{\"meta\":{\"empresa_uid\":\"asd123asd\",\"empresa_api_key\":\"123123123\",\"ambiente\":\"S\",\"objeto\":\"factura\"},\"data\":[{\"uuid\":[\"\"],\"destinatarios\":[{\"correo\":\"sandbox@docdigitales.com\"}],\"titulo\":\"Descargar factura\",\"texto\":\"Adjunto factura generada\",\"pdf\":\"true\"}]}";
             var descargaDiccionario = JsonConvert.DeserializeObject<Dictionary<string, dynamic>>(facturaDescarga);
-            string uuidDescargar    = "F5903EAA-E758-4648-B67F-BAA3454F5A74";
+            string uuidDescargar    = "ACF6B8DB-AA7C-4FBC-A0A2-D8FE04220E2B";
             
             // Establecer parametros de envio
             descargaDiccionario["data"][0]["uuid"][0] = uuidDescargar;
