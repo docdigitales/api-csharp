@@ -11,11 +11,11 @@ namespace ApiFacturacionDocDigitales
 {
         public class ApiFacturacion {
         
-        private const string EMPRESA_API_KEY = "123123123";
+        private const string EMPRESA_API_KEY = "6DBXudR_TgjhBaAB5RcORA";
         
         // Genera un CFDI
         public Dictionary<string, dynamic> GeneracionFactura(Dictionary<string, dynamic> peticionGeneracion) {
-            string _uriGeneracion = "http://api.docdigitales.com/v1/facturas/generar";
+            string _uriGeneracion = "https://api.docdigitales.com/v1/facturas/generar";
 
             try {
                 string response = GetPostResponse(_uriGeneracion, peticionGeneracion);
@@ -27,7 +27,7 @@ namespace ApiFacturacionDocDigitales
         }
 
         public Dictionary<string, dynamic> CancelacionFactura(Dictionary<string, dynamic> peticionCancelacion) {
-            string _uriCancelacion = "http://api.docdigitales.com/v1/facturas/cancelar";
+            string _uriCancelacion = "https://api.docdigitales.com/v1/facturas/cancelar";
 
             try {
                 string response = GetPostResponse(_uriCancelacion, peticionCancelacion);
@@ -38,8 +38,21 @@ namespace ApiFacturacionDocDigitales
             }
         }
 
+        public Dictionary<string, dynamic> GeneracionRecepcionPago(Dictionary<string, dynamic> peticionGeneracionRecepcion) {
+            string _uriCancelacion = "https://api.docdigitales.com/v1/recepciones_pago/generar";
+
+            try {
+                string response = GetPostResponse(_uriCancelacion, peticionGeneracionRecepcion);
+                return JsonConvert.DeserializeObject<Dictionary<string, dynamic>>(response);
+            }
+            catch (Exception e) {
+                Console.WriteLine("{0} Excepcion.", e);
+                return null;
+            }
+        }
+
         public Dictionary<string, dynamic> EnviarFactura(Dictionary<string, dynamic> peticionEnvio) {
-            string _uriEnvio = "http://api.docdigitales.com/v1/facturas/enviar";
+            string _uriEnvio = "https://api.docdigitales.com/v1/facturas/enviar";
             
             try {
                 string response = GetPostResponse(_uriEnvio, peticionEnvio);
@@ -51,7 +64,7 @@ namespace ApiFacturacionDocDigitales
         }
 
         public Dictionary<string, dynamic> DescargarFactura(Dictionary<string, dynamic> peticionDescarga) {
-            string _uriDescarga = "http://api.docdigitales.com/v1/facturas/descargar";
+            string _uriDescarga = "https://api.docdigitales.com/v1/facturas/descargar";
             try {
                 string response = GetPostResponse(_uriDescarga, peticionDescarga);
                 return JsonConvert.DeserializeObject<Dictionary<string, dynamic>>(response);
