@@ -11,7 +11,7 @@ namespace ApiFacturacionDocDigitales
 {
         public class ApiFacturacion {
         
-        private const string EMPRESA_API_KEY = "6DBXudR_TgjhBaAB5RcORA";
+        private const string EMPRESA_API_KEY = "123123123";
         
         // Genera un CFDI
         public Dictionary<string, dynamic> GeneracionFactura(Dictionary<string, dynamic> peticionGeneracion) {
